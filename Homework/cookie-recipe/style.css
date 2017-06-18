@@ -1,15 +1,30 @@
 body {
 	background: #c8deec;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+img {
+	max-width: 35%;
+	height: auto;	
+	border-color: "black";
+	border-style: solid;
+}
+
 h1 {
 	font-family: "Courier New";
 }
+
 h2 {
 	font-family: "Century Gothic";
 }
+
 h3 {
 	font-family: "Courier New";
 }
+
 h4 {
 	font-family: "Courier New";
+}
+a:link {
+    text-decoration: none;
 }
