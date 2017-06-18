@@ -1,0 +1,41 @@
+body {
+	
+	font-family: Georgia, serif;
+	color: midnightblue;
+	background: url("Images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+	max-width: 35%;
+	height: auto;
+}
+
+h1 {
+	font-family: "Trebuchet MS";
+	font-size: 60px;
+	font-style: bold;
+	color: #A23D28;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Trebuchet MS";
+	font-size: 30px;
+	color: midnightblue;
+	text-align: center;
+	font-style: bold;
+
+}
+
+h3 {
+	font-family: "Trebuchet MS";
+}
+
+h4 {
+	font-family: "Trebuchet MS";
+}
+a:link {
+    text-decoration: none;
+}
