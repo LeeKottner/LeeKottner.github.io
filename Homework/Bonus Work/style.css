@@ -2,9 +2,10 @@ body {
 	
 	font-family: Georgia, serif;
 	color: midnightblue;
-	background: url("Images/background.jpg");
+	background: url("Images/background-copy.jpg");
     background-size: cover;
     background-position: center;
+    font-size: 25px;
 }
 
 img {
@@ -13,7 +14,7 @@ img {
 }
 
 h1 {
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet MS"; sans-serif; 
 	font-size: 60px;
 	font-style: bold;
 	color: #A23D28;
@@ -36,6 +37,17 @@ h3 {
 h4 {
 	font-family: "Trebuchet MS";
 }
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    }
+    input[type="submit"] {
+    background: red;
+    color: white;
+    }
+    
 a:link {
     text-decoration: none;
 }
