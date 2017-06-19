@@ -11,6 +11,8 @@ body {
 img {
 	max-width: 35%;
 	height: auto;
+	border-color: #A23D28;
+	border-style: solid;
 }
 
 h1 {
@@ -22,7 +24,7 @@ h1 {
 }
 
 h2 {
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet MS"; sans-serif;
 	font-size: 30px;
 	color: midnightblue;
 	text-align: center;
@@ -31,11 +33,11 @@ h2 {
 }
 
 h3 {
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet MS"; sans-serif;
 }
 
 h4 {
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet MS"; sans-serif;
 }
 
 input {
@@ -47,7 +49,7 @@ input {
     background: red;
     color: white;
     }
-    
+
 a:link {
     text-decoration: none;
 }
