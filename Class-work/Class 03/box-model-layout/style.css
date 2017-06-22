@@ -1,0 +1,33 @@
+.boxes {
+	background-color: lightgray;
+	padding: 20px;
+	border: 20px;
+	margin: 20px;
+}
+
+.lorem {
+	background-color: tomato;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+}
+
+.p2  {
+	color: blue;
+
+}
+.p3 {
+	color: green;
+
+}
+.p4 {
+	color: yellow;
+
+}
+
+h2 {
+	margin: 10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}	
