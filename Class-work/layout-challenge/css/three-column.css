@@ -1,0 +1,45 @@
+h1 {
+  color: pink;
+  background: blue;
+  text-align: center;
+  margin: 0;
+}
+
+.box {
+  height: 250px;
+  
+  background: red;
+  border: 1px solid black;
+}
+
+.left {
+  float: left;
+  width: 25%;
+  background: yellow;
+}
+
+.center {
+    background-color: purple;
+ }
+
+.right {
+  float: right;
+  width: 25%;
+  background: green;s
+}
+
+.box-wrapper {
+  border: 3px solid green;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+ }
+
+ .center {
+    background-color: purple;
+ }
