@@ -94,7 +94,8 @@ img {
 #header #nav {
 	margin: 0;
 	padding: 15px;
-	width: 720px;
+	width: 700px;
+	border-right: thin white
 	display: inline-block;
 	text-decoration: none;
 	background-color: black;
