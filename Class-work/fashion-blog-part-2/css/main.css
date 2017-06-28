@@ -4,6 +4,7 @@ body {
 	line-height: 1.5;
 	background: #fff;
 	color: #444;
+	width: 1080px;
 }
 
 #wrapper {
@@ -18,22 +19,22 @@ body {
 }
 
 #sidebar {
-	width: 320px;
+	width: 300px;
 	padding-top: 54px;
 	float: right;
-}
-
-.clearfix:after {
-   content: ".";
-   visibility: hidden; 
-/*   display: block; 
-*/   height: 0; 
-   clear: both;
 }
 
 #footer {
 	color: #bbb;
 	clear: both;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 a {
@@ -113,6 +114,10 @@ img {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	width: 1080px;
+	margin: 0;
+	padding: 15px;
+	border-right: thin white
+	display: inline-block;
 	text-decoration: none;
 	text-align: center;
 	background-color: black;
@@ -126,9 +131,7 @@ img {
 	padding-left: 30px;
 	padding-right: 30px;
 	color: #dddddd;
-	
-	
-}
+	}
 
 #header #nav a:hover {
 	color: #bbbbbb;
