@@ -6,6 +6,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	width: 1080px;
+	border-left: black 1px;
 	}
 
 #wrapper {
@@ -26,7 +27,6 @@ body {
 	display: inline-block;
 	width: 500px;
 	margin-left: 20px;
-	line-height: 24px;
 	vertical-align: middle;
 	color: yellow;
 	font-family: "Merriweather", serif; 
@@ -43,7 +43,7 @@ body {
 	float: right;
 	}
 
-a {
+a.navbar {
 	width: 1080px;
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 20px;
@@ -70,6 +70,7 @@ a {
 	align-content: center;
 	font-style: italic;
 	font-size: 24px;
+	-webkit-box-shadow: 0px 0px 0px 2px #C6C6C6;
 }
 
 #strikeout {
@@ -79,43 +80,109 @@ a {
 #underline {
 	border-bottom: yellow solid 3px;
 	}
-img {
-		width: 100%;
-}
 
-#textbox-background {
-	background-image: url(img\coworking.jpg) cover;
+#box-background {
+	width: 1080px;
+	height: auto;
+	padding: 40px 0px 40px 0px;
+	background: url("../img/coworking.jpg");
+	background-attachment: scroll;
+	background-size: 100% auto;
+	background-color: gray;
+	display: inline-block;
 }
 
 #textbox {
 	float: right;
+	width: 280px;
+	padding: 5px 20px 20px 20px;
+	Margin: 20px 20px 40px 20px;
 	display: inline-block;
-	width: 300px;
-	Margin: 20px;
-	background-color: rgba(255,255,255,0.25);
+	background-color: rgba(255,255,255,0.55);
+	-webkit-box-shadow: 1px 1px 2px 3px #C6C6C6;
 }
 
-#button {
-	
+h2.textbox {
+	font-family: "Oswald";
+}
+
+p.textbox {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+	padding-bottom: 20px;
+}
+
+a.button {
+	align-text: middle;
+	text-decoration: none;
+	font-size: 18px;
+	background: yellow;
+	border-radius: 5px;
+	color: black;
+	font-weight: bold;
+	padding: 10px 40px 10px 40px;
+	Margin: 20px;
+	-webkit-box-shadow: 0px 0px 0px 2px #C6C6C6;
 }
 
 #articles {
-clear: both;
+	clear: both;
+	display: inline-block;
+	}
+
+h2 {
+	font-family: "Merriweather";
+	font-size: 25px;
 }
 
-.buttons {
-	
+a.buttons {
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	font-size: 17px;
+	font-weight: bold;
+	background: #C6C6C6;
+	padding: 10px 40px 10px 40px;
+	Margin: 20px;
+	-webkit-box-shadow: 0px 0px 0px 2px #C6C6C6;
+	vertical-align: bottom;
+}
+
+.vertical-line {
+	border-right: 2px solid #C6C6C6;
+	margin: 20px 20px 20px 20px;
+}
+
+p.article {
+	padding: 10px 20px 20px 0px;
+	font-size: 20px;
 }
 
 #block-1 {
-
-}
+	display: inline-block;
+	float: left;
+	width: 300px;
+	padding: 0px 20px 0px 20px;
+	}
 
 #block-2 {
-	
-}
+	display: inline-block;
+	float: left;
+	width: 300px;
+	padding: 0px 20px 0px 0px;
+	}
 
 #block-3 {
-	
-}
+	display: inline-block;
+	float: right;
+	width: 300px;
+	padding: 20px 0px 0px 20px;
+		}
 
+#footer {
+	clear: both;
+	width: 1040px;
+	background: black;
+	color: white;
+	padding: 10px 0px 10px 40px;
+}
