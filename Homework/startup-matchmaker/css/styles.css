@@ -57,21 +57,20 @@ a.navbar {
 #header-2 {
 	clear: both;
 	width: 1080px;
+	-webkit-box-shadow: 3px 18px 38px -13px rgba(0,0,0,0.63);
 	padding: 20px 0px 20px 0px;
 	font-family: "Merriweather";
 	text-align: center;
-	text-emphasis: ;
 	line-height: 24px;
 	font-size: 20px;
 	background: #C6C6C6;
-}
+	}
 
 #tagline {
 	align-content: center;
 	font-style: italic;
 	font-size: 24px;
-	-webkit-box-shadow: 0px 0px 0px 2px #C6C6C6;
-}
+	}
 
 #strikeout {
 	text-decoration: line-through;
@@ -90,6 +89,7 @@ a.navbar {
 	background-size: 100% auto;
 	background-color: gray;
 	display: inline-block;
+	-webkit-box-shadow: inset 0px -10px 30px -14px rgba(0,0,0,0.63);
 }
 
 #textbox {
@@ -99,9 +99,9 @@ a.navbar {
 	Margin: 20px 20px 40px 20px;
 	display: inline-block;
 	background-color: rgba(255,255,255,0.55);
-	-webkit-box-shadow: 1px 1px 2px 3px #C6C6C6;
+	-webkit-box-shadow:  7px 7px 34px -8px rgba(0,0,0,0.75);
 }
-
+	
 h2.textbox {
 	font-family: "Oswald";
 }
@@ -122,7 +122,7 @@ a.button {
 	font-weight: bold;
 	padding: 10px 40px 10px 40px;
 	Margin: 20px;
-	-webkit-box-shadow: 0px 0px 0px 2px #C6C6C6;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
 }
 
 #articles {
@@ -144,8 +144,8 @@ a.buttons {
 	background: #C6C6C6;
 	padding: 10px 40px 10px 40px;
 	Margin: 20px;
-	-webkit-box-shadow: 0px 0px 0px 2px #C6C6C6;
 	vertical-align: bottom;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
 }
 
 .vertical-line {
