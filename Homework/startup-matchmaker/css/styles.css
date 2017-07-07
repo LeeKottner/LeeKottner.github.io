@@ -31,7 +31,7 @@ body {
 	color: yellow;
 	font-family: "Merriweather", serif; 
 	font-size: 24px;
-	font-align: center;
+	text-align: left;
 	float: left;
 	}
 
@@ -48,7 +48,7 @@ a.navbar {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 20px;
 	line-height: 20px;
-	font-align: center;
+	text-align: center;
 	padding-left: 15px;
 	color: white;
 	text-decoration: none;
@@ -89,16 +89,15 @@ a.navbar {
 	background-size: 100% auto;
 	background-color: gray;
 	display: inline-block;
-	-webkit-box-shadow: inset 0px -10px 30px -14px rgba(0,0,0,0.63);
+	box-shadow: inset 0px -10px 30px -14px rgba(0,0,0,0.63);
 }
 
 #textbox {
 	float: right;
 	width: 280px;
 	padding: 5px 20px 20px 20px;
-	Margin: 20px 20px 40px 20px;
-	display: inline-block;
-	background-color: rgba(255,255,255,0.55);
+	margin: 20px 20px 40px 20px;
+	background-color: rgba(255,255,255,0.75);
 	-webkit-box-shadow:  7px 7px 34px -8px rgba(0,0,0,0.75);
 }
 	
