@@ -4,4 +4,4 @@
 font-family: 'Metamorphous', cursive;
 font-family: 'IM Fell English SC', serif;
 font-family: 'Rosarivo', serif;
-font-family: 'Almendra', serif;
+font-family: 'Almendra Display', serif;
