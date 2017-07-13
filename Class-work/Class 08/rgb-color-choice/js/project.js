@@ -15,14 +15,13 @@
 // 6. Use .style.background to change the background of #wrapper to colorStr
 	
 
-document.getElementById("color-button").onclick = function () {
+document.getElementById("color-button").onclick = function changeColor () {
   var red = document.getElementById("red").value;
   var green = document.getElementById("green").value;
   var blue = document.getElementById("blue").value;
-
-  var colorStr = "rgb"(+ "red", + "green", + "blue"); 
-
-  rgb(+ red, blue, green)
-  
-  console.log(colorStr);
+  var colorStr = "rgb(" + "red", + "blue", + "green" ")"; 
 }
+
+document.getElementById(#colorful-text).innerHTML = "colorStr"
+
+  
