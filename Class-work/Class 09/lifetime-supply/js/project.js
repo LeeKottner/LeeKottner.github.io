@@ -13,7 +13,7 @@
 
 $("#click-me").click(clickMe);
 
-	function clickMe () {
+	function clickMe() {
 	  var maxAge = $("#max-age").val();
 	  var age = $("#age").val();
 	  var drink = $("#item").val();
@@ -23,5 +23,14 @@ $("#click-me").click(clickMe);
 	  calculation = calculation * 365;
 	  calculation = calculation * $("#num-per-day").val();
 
-	  $("#output").html("You will drink " + calculation + " more " + drink "in your lifetime.");
+	  $("#output").text("You will drink " + calculation + " more " + drink + " in your lifetime.")
 	   }
+
+	 //    $('#submit').click(submitClick);
+
+  // function submitClick() {
+  //   var drink = $('#drink').val();
+  //   var food = $('#food').val();
+    
+  //   $('#output').text('I enjoy ' + drink + ' with ' + food);
+  // }
