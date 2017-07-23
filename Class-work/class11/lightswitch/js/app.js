@@ -2,6 +2,23 @@ $(document).ready(function () {
 
 	var lights = 'on';
 
+	
+	If (lights == "on") {
+		$("#lightswitch").click(function(console.log("lights");
+		$("body").css("background", "black");	
+		$("#lightswitch").css("background", "white");
+		$("#lightswitch").css("color", "black");
+		$("#lightswitch").text("ON"):
+
+		lights = "off";
+		} else {
+		$("body").css("background", "white");	
+		$("#lightswitch").css("background", "black");
+		$("#lightswitch").css("color", "white");
+		$("#lightswitch").text("OFF");
+		lights = "on";
+		}
+	}
 })
 
 
