@@ -2,6 +2,12 @@ $('#f-button').click(function() {
 	var farInput = parseFloat($('#f-input').val());
 	var celOutput = (farInput - 32) * 5 / 9;
 
+	If ("#f-input" <= 40) {
+		$("body").css("background", "blue");
+	} else if ("#f-input" >= 40) {
+		$("body").css("background", "red");
+	};
+
 	// Clear input elements
 	$('#f-input').val('')
 	$('#c-input').val('')
@@ -9,9 +15,12 @@ $('#f-button').click(function() {
 	$('#answer').html(farInput + '&deg; fahrenheit is ' + celOutput + '&deg; celcius.');
 });
 
+
 $('#c-button').click(function() {
 	var celInput = parseFloat($('#c-input').val());
 	var farOutput = celInput * 9 / 5 +32;
+	$("body").css()
+
 
 	// Clear input elements
 	$('#f-input').val('')
