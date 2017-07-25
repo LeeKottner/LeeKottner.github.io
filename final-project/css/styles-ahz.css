@@ -25,11 +25,18 @@ h2 {
 	color: #8176b7;
 }
 
-#a-zPic {
-	float: right
-	width: 100px;
+.container {
+	display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    /*align-content: center;
+	    align-items: center;*/
 }
 
-#copy {
-	
+#bldg-img {
+	width: 300px;
+}
+
+#headlines {
 }
