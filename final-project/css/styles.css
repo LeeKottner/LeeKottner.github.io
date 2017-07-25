@@ -7,19 +7,29 @@ font-family: 'Rosarivo', serif;
 font-family: 'Almendra', serif;*/
 
 body {
-	background-image: url(../images/a-z_splash.png);
+	background-image: url(../images/a-z-background.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	display: flex;
 	}
 h1 {
-/*	font-family: "notcaslon-one", sans-serif;*/
+	font-family: "notcaslon-one", sans-serif;
 	font-style: normal;
 	font-weight: 45px;
 	color: #8176b7;
 }
 h2 {
-/*	font-family: "notcaslon-one", sans-serif;*/
+	font-family: "notcaslon-one", sans-serif;
 	font-style: normal;
 	font-weight: 18px;
 	color: #8176b7;
+}
+
+#a-zPic {
+	float: right
+	width: 100px;
+}
+
+#copy {
+	
 }
