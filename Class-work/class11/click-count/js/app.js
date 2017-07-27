@@ -8,5 +8,29 @@
 // 6: Else, change the background-color of <body> to black
 
 $(document).ready(function () {
+	var clickNum = 0;
+	
+	$("#clickme").click(function(){
+		console.log("ahahahahahaha!");
+		clickNum += 1;
+		
+		$("#click-num").html(clickNum);
+
+		if (clickNum == 5) {
+			$("body").css("background-color", "red");
+		} else if (clickNum == 10) {
+			$("body").css("background-color", "green");
+		} else if (clickNum == 15) {
+			$("body").css("background-color", "blue");
+		} else {
+			$("body").css("background-color", "black");
+		}
+
+	if (clickNum % 2) {
+			$("body").css("border", "20px solid pink");	
+		} else {
+			$("body").css("border", "20px solid black");
+		}
+	})
 
 })
