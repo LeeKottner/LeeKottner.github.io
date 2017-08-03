@@ -1,42 +1,102 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*font-family: 'Metamorphous', cursive;
-font-family: 'IM Fell English SC', serif;
-font-family: 'Rosarivo', serif;
-font-family: 'Almendra', serif;*/
+
 
 body {
-	background-image: url(../images/a-z-background.jpg);
+	background-image: url(../images/ahz-background.jpg);
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: local;
 	display: flex;
+	width: 100%;
+	flex-direction: column;
+	flex-basis: auto;
+	align-content: center;
+	font-family: "Metamorphous Regular", serif;
+	font-family: "Aclonica", serif;
+	font-size: 22px;
+	color: #ffcc00;
 	}
-h1 {
-	font-family: "notcaslon-one", sans-serif;
-	font-style: normal;
-	font-weight: 45px;
-	color: #8176b7;
-}
-h2 {
-	font-family: "notcaslon-one", sans-serif;
-	font-style: normal;
-	font-weight: 18px;
-	color: #8176b7;
+
+nav {
+	flex-grow: 1;
+	width: 100%;
+	color: #ffcc00;
+	font-size: 16px;
 }
 
-.container {
+a {
+	text-decoration: none;
+	color: #ffcc00;
+}
+
+a:hover {
+	color: #ff9933;
+}
+
+img {
+	height: 95vh;
+}
+
+h1	{
+	line-height: 50%;
+}
+
+h2 {
+	line-height: 50%;
+}
+
+h3 {
+	line-height: 50%;
+}
+
+#container {
 	display: flex;
-	    flex-direction: row;
-	    flex-wrap: nowrap;
-	    justify-content: center;
-	    /*align-content: center;
-	    align-items: center;*/
+	flex-direction: row;
+	align-items: center;
+	flex-basis: auto;
+	justify-content: center;
+  	margin: auto;  
 }
 
 #bldg-img {
-	width: 300px;
+	min-width: 300px;
+	padding-bottom: 50px;
 }
 
-#headlines {
+#welcome-bldg-img {
+	min-width: 300px;
+	padding-right: 50px;
+}
+
+#story-bldg-img {
+	min-width: 300px;
+	padding-left: 50px;
+	align-self: flex-start;
+}
+
+#cap {
+	font-size: 300%;
+	line-height: 50%;
+}
+
+.text {
+	padding-top: 150px;
+	padding-right: 50px;
+	padding-bottom: 150px;
+	padding-left: 150px;
+	font-size: 20px;
+}
+
+#story-text {
+	font-family: "New Times Roman", serif;
+	font-size: 16px;
+	padding-right: 150px;
+	padding-bottom: 150px;
+	padding-left: 50px;
+	color: white;
+}
+
+.link {
+	color: #ff9933;
 }

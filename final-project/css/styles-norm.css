@@ -1,51 +1,27 @@
 @charset "utf-8";
-/* CSS Document */
-
-/*font-family: rosewood-std, sans-serif;
-font-style: normal;
-font-weight: 400;
-
-font-family: rosewood-std-fill, serif;
-font-style: normal;
-font-weight: 400;*/
 
 body {
 	background-image: url(../images/a-z-background.jpg);
 	background-size: cover;
+	font-family: "Alegreya", serif;
+	font-size: 16px;
 	background-attachment: fixed;
 	display: flex;
 	width: 100%;
 	flex-direction: column;
+	flex-wrap: nowrap;
 	flex-basis: auto;
-	align-content: center;
 	}
 
-/*h1 {
-	font-family: "rosewood-std-fill", serif;
-	font-style: normal;
-	font-weight: 500;
-	color: saddlebrown;
-	display: inline;
-}
-
-h2 {
-	font-family: "rosewood-std-fill", serif;
-	font-style: normal;
-	font-weight: 300;
-	color: saddlebrown;
-	display: inline;
-}
-*/
 nav {
 	flex-grow: 1;
 	width: 100%;
 	color: saddlebrown;
 }
 
-.container {
+#container {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
 	align-items: center;
 	flex-basis: auto;
 	justify-content: center;
@@ -61,23 +37,20 @@ a:hover {
 	color: chocolate;
 }
 
-#bldg-img {
-	min-width: 300px;
-	max-width: 300px
-
+img {
+	height: 95vh;
 }
 
 #headlines {
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	width: 300px;
-	padding-right: 50px;
+	padding-right: 20px;
 }
 
-/*.cap {
-	font-family: "rosewood-std", serif;
-	font-size: 20;
-	font-weight: 800;
-}*/
+#bldg-img {
+	min-width: 250px;
+	max-width: 300px
+	padding-left: 20px;
+
+}
+
+
 
