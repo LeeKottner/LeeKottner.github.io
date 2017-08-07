@@ -1,16 +1,16 @@
 $('#f-button').click(function() {
-	var farInput = parseFloat($('#f-input').val());
+	var farInput = parseFloat($("#f-input").val());
 	var celOutput = (farInput - 32) * 5 / 9;
 
-	If ("#f-input" <= 40) {
+	if ("celOutput" <= 26) {
 		$("body").css("background", "blue");
-	} else if ("#f-input" >= 40) {
+	} else { 
 		$("body").css("background", "red");
 	};
-
+	
 	// Clear input elements
-	$('#f-input').val('')
-	$('#c-input').val('')
+	$("#f-input").val("")
+	$("#c-input").val("")
 
 	$('#answer').html(farInput + '&deg; fahrenheit is ' + celOutput + '&deg; celcius.');
 });
@@ -18,9 +18,13 @@ $('#f-button').click(function() {
 
 $('#c-button').click(function() {
 	var celInput = parseFloat($('#c-input').val());
-	var farOutput = celInput * 9 / 5 +32;
-	$("body").css()
-
+	var farOutput = (celInput + 32) * 9 / 5;
+	
+	// if ("farOutput" >= 80) {
+	// 	$("body").css("background", "red")
+	// } else { ("farOutput" < 80) 
+	// 	$("body").css("background", "blue")	
+	// };
 
 	// Clear input elements
 	$('#f-input').val('')
