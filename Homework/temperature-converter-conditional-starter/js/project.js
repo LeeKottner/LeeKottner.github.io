@@ -2,7 +2,7 @@ $('#f-button').click(function() {
 	var farInput = parseFloat($("#f-input").val());
 	var celOutput = (farInput - 32) * 5 / 9;
 
-	if ("celOutput" <= 26) {
+	if (celOutput <= 26) {
 		$("body").css("background", "blue");
 	} else { 
 		$("body").css("background", "red");
