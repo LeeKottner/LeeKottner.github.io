@@ -11,13 +11,13 @@
 // Legendary Bonus: Remove individual <li> elements when they are clicked (hint: use $(this) and .remove())
 
 $(document).ready(function() {
-	$(#clickme).click() {
+	$("#clickme").click(function () {
 		var newItem = $("#item").val();
 		function appendItem (item) {
 		$("#list").append("<li>" + item + "</li>");
 	}
 
-	$("#clickme").val("");
+$("#clickme").val("");
 
 	// 1. Attach a .click() event to #clickme; attach an anonymous function to the .click()
 	// 1A. This anonymous function should create a variable, newItem equal to the value of #item
