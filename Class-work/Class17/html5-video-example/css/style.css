@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Pacifico', cursive;
+}
+
+video {
+	width: 100%;
+}
+
+div {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: red;
+	opacity: .3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	position: absolute;
+	width: 100%;
+	top: 35%;
+	left: 0;
+	text-align: center;
+	color: white;
+	font-size: 75px;
+}
