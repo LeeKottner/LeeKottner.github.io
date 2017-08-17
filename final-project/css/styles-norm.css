@@ -51,10 +51,10 @@ img {
 	padding-left: 20px;
 }
 
-#bldg-img-wrapper {
+/*#bldg-img-wrapper {
 	position: relative;
 	overflow: hidden;
-}
+}*/
 
 
 #bldg-overlay {
@@ -63,5 +63,7 @@ img {
 /*	left: 0;
 */	bottom: 0;
 	right: 0;
-	opacity: 0; 
+	opacity: 0;
+	min-width: 250px;
+	max-width: 300px 
 }
