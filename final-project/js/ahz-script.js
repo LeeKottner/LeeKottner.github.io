@@ -1,5 +1,7 @@
 // index.html
 
+// overlay photos
+
 $("#bldg-img-wrapper").mouseenter(function() {
         $("#bldg-overlay").show();
     }).mouseleave(function() {
