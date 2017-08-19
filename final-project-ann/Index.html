@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles-norm.css">
+		<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+		<link rel="stylesheet"
+  		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+  		integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  		crossorigin="anonymous">
+	
+		<title>A to Z Emporium</title>
+		
+	</head>
+
+	<body>
+		
+		<audio id="player" src="sound/Carnival-of-Venice.mp3" autoplay></audio>
+			<div id="sound-button">
+				<button onclick="document.getElementById('player').play()">Sound On</button>
+				<button onclick="document.getElementById('player').pause()">Sound Off</button>
+			</div>
+		<nav>		
+			<p align="center">
+				<a href="housekeeping.html">Welcome</a>&nbsp;&nbsp;|&nbsp;
+				<a href="housekeeping.html">Departments</a>&nbsp;&nbsp;|&nbsp;
+				<a href="housekeeping.html">Catalogues</a>&nbsp;&nbsp;|&nbsp;
+				<a href="housekeeping.html">Staff</a>&nbsp;&nbsp;|&nbsp;
+				<a href="login.html" class="secret-login">Contact Us</a>&nbsp;&nbsp;|&nbsp;
+				<a href="login.html" class="secret-login">Your Account</a>
+			</p>
+		</nav>
+
+		<div id="container">
+			<img src="images/a-z_titles.png" id="headlines">
+			<span id="bldg-img-wrapper" class="animated flash">
+				<img src="images/a-z_bldg.png" id="bldg-img">	
+				<div id="bldg-overlay-wrap">
+					<img src="images/acme-zenith-overlay.png" id="bldg-overlay">		
+				</div>
+
+			</span>
+		</div>	
+
+		<!-- Button to open the modal login form -->
+<!-- <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+ -->
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+ class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="images/mandala.svg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label id="secret-login"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <!-- <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me -->
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div> 
+
+		
+
+				
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="js/ahz-script.js" type="text/javascript"></script>
+<!-- <script src="js/login_effect-script.js" type="text/javascript"></script> -->
+
+	</body>
+</html>

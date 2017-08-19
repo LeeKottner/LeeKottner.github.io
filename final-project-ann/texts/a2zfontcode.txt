@@ -1,0 +1,7 @@
+<link href="https://fonts.googleapis.com/css?family=Almendra|IM+Fell+English+SC|Metamorphous|Rosarivo" rel="stylesheet">
+
+
+font-family: 'Metamorphous', cursive;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Rosarivo', serif;
+font-family: 'Almendra Display', serif;

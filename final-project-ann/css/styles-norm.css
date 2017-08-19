@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../images/A-z-background.png);
+	background-size: cover;
+	font-family: "Alegreya", serif;
+	font-size: 16px;
+	background-attachment: fixed;
+/*	display: flex;*/
+/*	width: 100%;
+	max-height: 90%;*/
+/*	flex-direction: column;
+	flex-wrap: nowrap;
+	flex-basis: auto;*/
+}
+
+.player {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	flex-basis: auto;
+	justify-content: left;
+  	margin: auto;
+}
+
+button {
+	color: saddlebrown;
+	background-color: lemonchiffon;
+}
+
+button:hover {
+	background-color: khaki;
+}
+
+nav {
+	flex-grow: 1;
+	flex-direction: column;
+	width: 100%;
+	color: saddlebrown;
+}
+
+#container {
+  text-align: center;
+}
+
+
+a {
+	text-decoration: none;
+	color: saddlebrown;
+}
+
+a:hover {
+	color: chocolate;
+}
+
+img {
+	/*height: 95vh;*/
+}
+
+#headlines {
+	padding-right: 20px;
+	display: inline-block;
+}
+
+#bldg-img {
+	height: 100%;
+	display: block;
+}
+
+#bldg-img-wrapper {
+	height: 688px;
+	position: relative;
+	display: inline-block;
+}
+
+#bldg-overlay-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+}
+
+#bldg-overlay {
+	height: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+ .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+ .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+} 
+
