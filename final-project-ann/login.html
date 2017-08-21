@@ -12,52 +12,32 @@
 
 	</head>
 			
-	<!-- <body>
+	<body>
 
-		<form action="/action_page.php">
-			 <div id="imgcontainer" text-align="center">
-			    <img src="images/mandala.png" alt="mandala" id="mandala" >
-			    <h3>Ah, you've found us. Welcome!</h3>
-			 </div>
+<div id="login" class="modal2">
+  			<!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> -->
 
-	  		<div id="form-box1">
-	       		<p><input type="text" placeholder="Sign in, please." name="uname" required></p>
-	        	<p><input type="password" placeholder="Passkey" name="psw"></p>
-	  		</div>
+  			<!-- Modal Content -->
+			<form action="ahz-index.html" class="modal-content" id="animate2">
 
-	  		<div id="form-box2">
-	    		<button type="button" id="btn" a href="ahz-index.html">Enter The Ahz</button>
-	  		</div>
-	</form>
- -->
-
-
-		<div id="id01" class="modal">
-  			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
-  <!-- Modal Content -->
-			<form class="modal-content animate" action="/action_page.php">
-
-			    <div class="imgcontainer">
-			      <img src="images/mandala.png" alt="mandala" class="mandala">
+			    <div class="imgcontainer" text-align="center">
+			      <img src="images/mandala.png" alt="mandala" id="mandala" >
 			    </div>
 
-			   	<div id="form-box1">
-				    <input type="text" placeholder="Sign in, please." name="uname" required>
+			   	<div id="form-box">
+				    <p><input type="text" placeholder="Introduce yourself." required id="name"></p>
 
-				    <input type="password" placeholder=" Passkey" name="psw">
+				    <p><input type="text" placeholder="Passkey (new or old)" name="psw" required id="psw"></p>
 
-				    <button type="submit">Enter the Ahz</button>
+				    <button type="submit" href="ahz-index.html" id="btn">Enter the Ahz</button>
 			    </div>
 
-			    <div id="form-box2" style="background-color:#f1f1f1">
-			      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-			      <span class="psw">Forgot <a href="#">password?</a></span>
-					    </div>
+			    <!-- <div id="form-box2" style="background-color:#f1f1f1">
+			      	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			      	<span>Forgot <a href="#">password?</a></span>
+				</div> -->
 
 			</form>
-		</div>
-
 	
 	</body>
 

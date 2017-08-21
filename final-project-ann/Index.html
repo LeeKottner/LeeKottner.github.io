@@ -18,7 +18,7 @@
 			<audio id="player" src="sound/Carnival-of-Venice.mp3" autoplay align="left"></audio>
 				<div id="sound-button">
 					<button onclick="document.getElementById('player').play()">Sound On</button>
-					<button onclick="document.getElementById('player').pause()">Sound Off</button>
+					<button onclick="document.getElementById('player').pause()" class="secret-login">Sound Off</button>
 				</div>		
 			<nav>
 				<p align="center">
@@ -26,14 +26,14 @@
 					<a href="housekeeping.html">Departments</a>&nbsp;&nbsp;|&nbsp;
 					<a href="housekeeping.html">Catalogues</a>&nbsp;&nbsp;|&nbsp;
 					<a href="housekeeping.html">Staff</a>&nbsp;&nbsp;|&nbsp;
-					<a href="housekeeping.html" class="secret-login">Contact Us</a>&nbsp;&nbsp;|&nbsp;
-					<a href="housekeeping.html" class="secret-login" >Your Account</a>
+					<a href="index.html" class="secret-login">Contact Us</a>&nbsp;&nbsp;|&nbsp;
+					<a href="index.html" class="secret-login" >Your Account</a>
 				</p>
 			</nav>
 		</div>
 
 		<div id="container">
-			<img src="images/a-z_titles.png" id="headlines">
+			<img src="images/a-z_titles.png" id="headlines" class="secret-login">
 			<span id="bldg-img-wrapper">
 				<img src="images/a-z_bldg.png" id="bldg-img">	
 				<div id="bldg-overlay-wrap" class="secret-login">
@@ -54,9 +54,9 @@
 			    </div>
 
 			   	<div id="form-box">
-				    <p><input type="text" placeholder="Sign in, please." name="urname" required id="name"></p>
+				    <p><input type="text" placeholder="Introduce yourself." required id="name"></p>
 
-				    <p><input type="password" placeholder="Passkey" name="psw" id="psw"></p>
+				    <p><input type="password" placeholder="Passkey (new or old)" name="psw" required id="psw"></p>
 
 				    <button type="submit" href="ahz-index.html" id="btn">Enter the Ahz</button>
 			    </div>
