@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
 	<head>
 	<meta charset="utf-8">
@@ -13,7 +14,7 @@
 
 	<body>
 		
-		</div id="menus">
+		<div>
 			<audio id="player" src="sound/Carnival-of-Venice.mp3" autoplay align="left"></audio>
 				<div id="sound-button">
 					<button onclick="document.getElementById('player').play()">Sound On</button>
@@ -42,25 +43,22 @@
 		</div>	
 
 
-</div>
-	
-
 		<div id="login" class="modal">
   			<!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> -->
 
-  <!-- Modal Content -->
-			<form class="modal-content" id="animate2" <!-- action="/action_page.php" -->>
+  			<!-- Modal Content -->
+			<form action="ahz-index.html" class="modal-content" id="animate2">
 
-			    <div class="imgcontainer">
-			      <img src="images/mandala.png" alt="mandala" class="mandala">
+			    <div class="imgcontainer" text-align="center">
+			      <img src="images/mandala.png" alt="mandala" id="mandala" >
 			    </div>
 
 			   	<div id="form-box">
-				    <input type="text" placeholder="Sign in, please." name="uname" required>
+				    <p><input type="text" placeholder="Sign in, please." name="urname" required id="name"></p>
 
-				    <input type="password" placeholder=" Passkey" name="psw" id="psw">
+				    <p><input type="password" placeholder="Passkey" name="psw" id="psw"></p>
 
-				    <button type="submit" a href="ahz-index.html" id="btn">Enter the Ahz</button>
+				    <button type="submit" href="ahz-index.html" id="btn">Enter the Ahz</button>
 			    </div>
 
 			    <!-- <div id="form-box2" style="background-color:#f1f1f1">

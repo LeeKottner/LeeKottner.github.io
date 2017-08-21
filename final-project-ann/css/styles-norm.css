@@ -57,10 +57,6 @@ a:hover {
 	color: chocolate;
 }
 
-img {
-	/*height: 95vh;*/
-}
-
 #headlines {
 	padding-right: 20px;
 	display: inline-block;
@@ -69,7 +65,7 @@ img {
 #bldg-img {
 	height: 100%;
 	display: block;
-	z-index: 1;
+	z-index: 3;
 }
 
 #bldg-img-wrapper {
@@ -93,34 +89,34 @@ img {
 }
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    display: none;  
+    position: fixed;
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%;  Full width 
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 250px; 
+    margin-left: 450px;  
 }
 
-/* Modal Content/Box */
 .modal-content {
     background-color: #000235;
     margin: 5px auto; /* 15% from the top and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 250px;  
+     padding-top: 20px;
+    text-align: center;
 }
 
 #imgcontainer {
-    text-align: center;
     background-color: #000235;
     color: #ffcc00;
-    padding: 20px;
     text-align: center;
-}
+    width: 250px;  
+ }
 
 #mandala {
     height: 100px;
+    text-align: center;
 }
 
 #form-box {
@@ -129,6 +125,8 @@ img {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 250px;  
+    height: 100%;
 }
 
 #btn {
