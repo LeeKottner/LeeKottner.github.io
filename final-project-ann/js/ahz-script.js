@@ -1,4 +1,5 @@
-// index.html   
+
+
 // overlay photos
 $("#bldg-img-wrapper").mouseenter(function() {
   $("#bldg-overlay").show(); 
@@ -6,20 +7,34 @@ $("#bldg-img-wrapper").mouseenter(function() {
   $("#bldg-overlay").hide();
 });
 
-// // Call popup login
-$("#bldg-overlay #bldg-img #secret-login").click(function() {
-    if (event.target == modal) {
-        modal.style.display = "";
-    }
+
+
+var modal = document.getElementById('.modal');
+
+$(document).ready(function(){
+  $('.secret-login').click(function(){
+    var modal=$(this).attr('.modal');
+    alert(modal);
+  });
 });
 
-// // // prefill form
+// When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//     if (event.target == login) {
+//         modal.style.display = "none";
+//     }
+// }
 
-// after the page elements are all loaded, then run the script
-// Set the input field with unique ID #email to a value
-// Set the input field with unique ID #name
+// $("psw").val("**************");
 
-$("secret-login").val("**************");
+
+// // // // prefill form
+
+// // after the page elements are all loaded, then run the script
+// // Set the input field with unique ID #email to a value
+// // Set the input field with unique ID #name
+
+
 
 
 
