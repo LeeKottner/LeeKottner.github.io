@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	background-image: url(../images/ahz-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Metamorphous Regular", serif;
+    font-family: "Aclonica", serif;
+    color: #ffcc00;
+	}
+
+nav {
+	flex-grow: 1;
+	flex-direction: column; 
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #ffcc00;
+}
+
+a.hover {
+	color: #ff9933;
+}
+
+img {
+	height: 95vh;
+}
+
+#home-container {
+	display: flex;
+    flex-direction: row;
+    flex-basis: wrap;
+    justify-content: center;
+    margin-left: 300px; 
+    margin-right: 300px;
+}
+
+#cap {
+	font-size: 3em;
+	line-height: 0;
+}
+
+
+.link {
+	color: #ff9933;
+}
