@@ -32,7 +32,7 @@ button {
 	background-color: lemonchiffon;
 }
 
-button:hover {
+button.hover {
 	background-color: khaki;
 }
 
@@ -53,7 +53,7 @@ a {
 	color: saddlebrown;
 }
 
-a:hover {
+a.hover {
 	color: chocolate;
 }
 
